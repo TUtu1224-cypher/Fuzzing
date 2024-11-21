@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/aflplusplus/aflplusplus:latest docker://registry.cn-shanghai.aliyuncs.com/aflplusplus-images/aflplusplus:latest
+        skopeo copy docker://docker.io/aflplusplus/aflplusplus:latest docker://registry.cn-shanghai.aliyuncs.com/tutu1224/fuzzing
